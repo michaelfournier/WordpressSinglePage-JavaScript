@@ -9,7 +9,7 @@ Changelog:
 - Revised application structure to support further configuration
 - Replaced EcoTemplates with Handlebars
 
-(For a CoffeeScript version of this project, see: https://github.com/damassi/WordpressBackbone-JavaScript)
+(For a CoffeeScript version of this project, see: https://github.com/damassi/WordpressSinglePage-CoffeeScript)
 
 Current Version Dependencies:
 - Wordpress v 3.3.1+

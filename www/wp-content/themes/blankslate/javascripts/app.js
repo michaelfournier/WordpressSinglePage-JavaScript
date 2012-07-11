@@ -468,10 +468,10 @@ window.require.define({"views/HomeView": function(exports, require, module) {
   		var _that = this;
 
   		$.ajax({
-  			url: ApplicationConfig.API + "get_recent_posts/",
+  			url: ApplicationConfig.API_METHODS.recentPosts,
   			success: function( e ) {
   				console.log( e );
-  				
+
   				$( _that.el ).html( _that.template( {
   					content: "Successfully received recent posts; view browser console for output.",
   					posts: e.posts

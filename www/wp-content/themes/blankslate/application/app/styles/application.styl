@@ -1,0 +1,40 @@
+/**
+ * Primary Application Stylesheet
+ * 
+ * @langversion Stylus
+ * 
+ * @author Christopher Pappas
+ * @since  Month 00, 2012
+ */
+
+// nib is a powerful lib for stylus that provides cross-browser css3 mixins.
+// No more vendor prefixes. http://visionmedia.github.com/nib/
+@import 'nib'
+
+// Apply a natural box layout model to all elements.
+// http://paulirish.com/2012/box-sizing-border-box-ftw/
+*
+  box-sizing: border-box
+
+/*
+ * Stylesheet Constants
+ */
+
+SITE_PADDING = 10px
+
+
+/*
+ * Primitives
+ */
+
+body
+	padding: SITE_PADDING
+
+
+/*
+ * Primary Styles
+ */
+
+#home-view
+  	width: 1003px
+  	margin: 0 auto

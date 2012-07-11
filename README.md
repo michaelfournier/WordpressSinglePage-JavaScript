@@ -1,4 +1,4 @@
-WordpressBackbone - JavaScript
+WordpressSinglePage - JavaScript
 =====================
 v 0.4
 

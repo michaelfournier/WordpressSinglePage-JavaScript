@@ -2,7 +2,7 @@ WordpressSinglePage - JavaScript
 =====================
 v 0.4
 
-WordpressBackbone is a starting place for building Backbone.js applications on top of WordPress via the Brunch.io app-assembler (Backbone.js, Common.js Modules, CoffeeScript, Handlebars, et al.) and Wordpress JSON api (http://wordpress.org/extend/plugins/json-api/)
+WordpressSinglePage is a starting place for building Backbone.js applications on top of WordPress via the Brunch.io app-assembler (Backbone.js, Common.js Modules, CoffeeScript, Handlebars, et al.) and Wordpress JSON api (http://wordpress.org/extend/plugins/json-api/)
 
 Changelog:
 - Updated application to support Brunch 1.0+ releases

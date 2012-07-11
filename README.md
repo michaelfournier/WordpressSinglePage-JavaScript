@@ -5,15 +5,15 @@ v 0.4
 WordpressBackbone is a starting place for building Backbone.js applications on top of WordPress via the Brunch.io app-assembler (Backbone.js, Common.js Modules, CoffeeScript, Handlebars, et al.) and Wordpress JSON api (http://wordpress.org/extend/plugins/json-api/)
 
 Changelog:
-Updated application to support Brunch 1.0+ releases
-Revised application structure to support further configuration
-Replaced EcoTemplates with Handlebars
+- Updated application to support Brunch 1.0+ releases
+- Revised application structure to support further configuration
+- Replaced EcoTemplates with Handlebars
 
 (For a CoffeeScript version of this project, see: https://github.com/damassi/WordpressBackbone-JavaScript)
 
 Current Version Dependencies:
-Wordpress v 3.3.1+
-Brunch v 1.3.3+
+- Wordpress v 3.3.1+
+- Brunch v 1.3.3+
 
 ---------------------
 

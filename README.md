@@ -18,6 +18,7 @@ Brunch v 1.3.3+
 ---------------------
 
 About Brunch:
+
 "A lightweight approach to building HTML5 applications with emphasis on elegance and simplicity.
 
 Instead of reinventing the wheel, brunch assembles awesome wheels:
@@ -41,6 +42,7 @@ Everything from the list is optional, you can choose only projects you want. In 
 http://brunch.io
 
 About Wordpress JSON-API:
+
 "JSON API allows you to retrieve and manipulate WordPress content using HTTP requests. There are three main goals:
 
 - Provide a simple, consistent external interface
@@ -64,11 +66,13 @@ Copy the files to an appropriate location on your localhost or server and then f
 Requirements:
 
 1.  Node.JS:
+
 http://nodejs.org/
 
 An installer can be found there for Mac and Windows, as well as more detailed instructions on customization.
 
 2.  Brunch
+
 After installing node, execute via terminal 
 
 npm install -g brunch
@@ -87,6 +91,7 @@ Wordpress Setup
 ----------------
 
 Quick-start:
+
 If you would like to skip the standard Wordpress install, a quick-start database has been provided in the folder db_quickstart.  
 
 1.  Create a new MySQL database and import wp_single_page.sql
@@ -95,11 +100,13 @@ If you would like to skip the standard Wordpress install, a quick-start database
 4.  Login at /install_directory/wp-admin; user: admin; pass: password.  These settings can be changed in the Users tab in the back-end
 
 From scratch:
+
 1.  Follow the standard Wordpress installation instructions at Wordpress.org:  http://codex.wordpress.org/Installing_WordPress
 2.  Once installed, navigate to the plugins page and enable JSON-API
 
 
-Brunch Setup
+Brunch Setup:
+
 1.  Navigate to `www/wp-content/themes/blankslate/application/app/config/ApplicationConfig.coffee` and adjust the constant BASE_URL to point to your install directory
 2.  More fine-grained control can be found in ...blankslate/application/app/config.coffee
 3.  While the default brunch application has already been initialized in themes/blankslate/application, you'll still need to watch the directory for changes and output the files to the default theme directory.  cd into `application` then execute
